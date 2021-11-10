@@ -11,6 +11,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IncidentsApp">
         <activity
+            android:name=".ui.HomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.NavDrawerActivity"
+            android:exported="true"
+            android:label="@string/title_activity_nav_drawer"
+            android:theme="@style/Theme.IncidentsApp.NoActionBar" />
+        <activity
             android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_incidents"
+            android:icon="@drawable/ic_mark_chat"
+            android:title="@string/my_incidents" />
+        <item
+            android:id="@+id/all_incidents"
+            android:icon="@drawable/ic_comment"
+            android:title="@string/all_incidents" />
+
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_account"
+            android:title="@string/profile" />
+    </group>
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/ic_login"
+        android:title="@string/log_out"
+        app:showAsAction="ifRoom" />
+</menu>
